@@ -133,7 +133,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
     dalvik.vm.image-dex2oat-threads=8
 
->>>>>>> 5e00aa4 (sm8350-common: Make alternative brightness algorithm for low gamma overrideable)
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
