@@ -6,5 +6,8 @@
   {
     "repository": "kernel_oneplus_sm8350",
     "target_path": "kernel/oneplus/sm8350"
+  },
+    "repository": "packages_apps_TouchGestures",
+    "target_path": "packages/apps/TouchGestures"
   }
 ]
