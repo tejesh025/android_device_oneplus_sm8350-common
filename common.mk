@@ -393,3 +393,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8350-common/sm8350-common-vendor.mk)
+
+# Exclude AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
