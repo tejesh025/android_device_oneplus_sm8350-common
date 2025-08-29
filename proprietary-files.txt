@@ -683,16 +683,16 @@ vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 
-# Power-off alarm (system) - from LE2125 13.1.0.593(EX01)
-product/app/PowerOffAlarm/PowerOffAlarm.apk|5928b0a09b559a33f08ad2f04603a5c70fd3493b|6b8aa2a6b6feaa2da0f45be0a9a8147f46f10f50
-system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|1cef4c9f6193022d8410e21513f36687cab0e0f2
+# Power-off alarm (system) - pinned from LA.QSSI.15.0.r1
+system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|3894dbb20aee9fc22b2273323d41ae9810daf7cd
 
-# Power-off alarm (vendor)
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
-vendor/bin/power_off_alarm
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+# Power-off alarm (vendor) - pinned from LA.VENDOR.15.4.0.r1-15000-pakala.0-1
+vendor/bin/hw/vendor.qti.hardware.alarm-service|d5264c87bec9e80a2831b120936cf08f3bab7589
+vendor/bin/power_off_alarm|b99594e1f76a2f86996de60222704fa6ea26017d
+vendor/etc/init/vendor.qti.hardware.alarm-service.rc|9cec6923bbbb67e177b3cc0bfaf5eff0897a8143
+vendor/lib64/hw/vendor.qti.hardware.alarm-impl.so|b5fd61830b74b7fa1446a0d29c4d25931d141a6d
+vendor/lib64/vendor.qti.hardware.alarm-V1-ndk.so|041a4abc98e7d9d47acd579c1f058bfbd0826433
+vendor/etc/vintf/manifest/vendor.qti.hardware.alarm.xml|945ee1c1dc7402ffb00571464df7188f2b20fbe8
 
 # QCC
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
