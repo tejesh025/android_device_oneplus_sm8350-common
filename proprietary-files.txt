@@ -683,8 +683,8 @@ vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 
-# Power-off alarm (system) - pinned from LA.QSSI.15.0.r1
-system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|3894dbb20aee9fc22b2273323d41ae9810daf7cd
+# Power-off alarm (system) - pinned from LA.QSSI.16.0.r1-06700-qssi.0
+system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|c727851212a69630a4633bd1cf6c27ebde519a10
 
 # Power-off alarm (vendor) - pinned from LA.VENDOR.15.4.0.r1-15000-pakala.0-1
 vendor/bin/hw/vendor.qti.hardware.alarm-service|d5264c87bec9e80a2831b120936cf08f3bab7589
