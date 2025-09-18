@@ -497,6 +497,7 @@ system_ext/etc/sysconfig/qti_whitelist_system_ext.xml|fc930929bee7d1f8ecc5b1c761
 -system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|bd0409212689cbc5c5e7fe5e4587d75bb3b5aebd
 -system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|572398f0840f37e550a81503d609b438ea00905b
 -system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so|21832897ab986fcf58dbf6d2a1be84aeb7387de5
+-system_ext/lib64/vendor.qti.ImsRtpService-V2-ndk.so|d3f38714174fd3edaf226fcb787a4173490ab9fc
 -system_ext/lib64/vendor.qti.ims.datachannelservice-V1-ndk.so|a8d216276b17009e6c12108a45dd481cb4fd3a96
 -system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|b65fc57443ca18c8300fd5e673b219b709612c93
 -system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|2200adf5cef0030cdba135fa639fc8d5245a6ea6
@@ -1583,6 +1584,7 @@ system_ext/lib/libwfduibcsinkinterface.so|828332f0a7c78265bf70689843b6c6b5f18993
 system_ext/lib/libwfduibcsrc.so|cd5cc3fcf6e60c3a0f5263d5f3d3da0fb0a33af6
 system_ext/lib/libwfduibcsrcinterface.so|876c79f90c790eecb36f639aecbd34d2e8d5dded
 system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|8e480a3da155933752035875735268d79fb5c40e
+system_ext/lib/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so|2201c82b76c64e3a4edf77670aad7dd562d2cdfe
 system_ext/lib64/libmmrtpdecoder.so|e407fcb8865c03249b28d633985f776e2727eef4
 system_ext/lib64/libmmrtpencoder.so|fe72c5509d91af686601333a0394530d1cd9f458
 system_ext/lib64/libwfdclient.so|3733761ccfb0e510c1b4f9dc6fe7cd12c0ba1097
