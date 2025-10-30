@@ -633,7 +633,7 @@ vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/etc/public.libraries.txt
 
 # OPLUS Charger - pin from CPH2569_15.0.0.402
-odm/bin/hw/vendor.oplus.hardware.charger-V6-service|5e8a1752b831729127feaad8e1926c311963e98f|7740ecd3c4336fdac6d382d5a7bfc08ffa67c3a8
+odm/bin/hw/vendor.oplus.hardware.charger-V6-service;DISABLE_CHECKELF|5e8a1752b831729127feaad8e1926c311963e98f|7740ecd3c4336fdac6d382d5a7bfc08ffa67c3a8
 odm/bin/hw/wlschgd|4534dbca55f8b756b7e288bf1ed8cb311947b493
 odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc|178a0d37395cfb802722aafc116324c5bc0a7919
 odm/etc/permissions/vendor-oplus-hardware-charger.xml|b1e5caf493ed88bfb8ca02a9e38685433544b1b1
