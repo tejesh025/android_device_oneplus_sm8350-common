@@ -254,6 +254,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
+TARGET_PROVIDES_POWERHAL := true
+
 # Qcom
 TARGET_BOARD_PLATFORM := lahaina
 
