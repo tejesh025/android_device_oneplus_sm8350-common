@@ -255,6 +255,8 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
     libqti-perfd-client
 
+TARGET_PROVIDES_POWERHAL := true
+
 # Qcom
 TARGET_BOARD_PLATFORM := lahaina
 
