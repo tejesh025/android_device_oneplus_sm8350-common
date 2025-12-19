@@ -457,12 +457,10 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 
 # Horae - pin from CPH2569_15.0.0.402
 system/lib64/libostatslog.so|99660c284c63f6f8c193649560e26e0622f4541c
-system/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so|3db4c42aebb3859915f700deed2552d22d3b764c
 system_ext/bin/horae|a649fbf96545cd89419728c86d7861ca7fcf674d
 system_ext/etc/horae/horae.conf|2965512f51899df3de339dc23e3fb1b4725b878c
 system_ext/etc/horae/horae_SM8350.conf|cfcd4a51ad00c9d0f095f5907ec228cc5e99f82f
 system_ext/etc/init/horae.rc|fc8b2a0becf5d9cec527df7c6974ff77de80f3a2
-system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so|29169972453d0430b496915f1e3a309da0adf089
 
 # Hotword Enrollment
 my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
