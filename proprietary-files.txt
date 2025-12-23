@@ -456,11 +456,11 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 
 # Horae
-system/lib64/libostatslog.so|99660c284c63f6f8c193649560e26e0622f4541c
-system_ext/bin/horae|a649fbf96545cd89419728c86d7861ca7fcf674d
-system_ext/etc/horae/horae.conf|2965512f51899df3de339dc23e3fb1b4725b878c
-system_ext/etc/horae/horae_SM8350.conf|cfcd4a51ad00c9d0f095f5907ec228cc5e99f82f
-system_ext/etc/init/horae.rc|fc8b2a0becf5d9cec527df7c6974ff77de80f3a2
+system/lib64/libostatslog.so
+system_ext/bin/horae
+system_ext/etc/horae/horae.conf
+system_ext/etc/horae/horae_SM8350.conf
+system_ext/etc/init/horae.rc
 
 # Hotword Enrollment
 my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
@@ -631,20 +631,20 @@ vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/etc/public.libraries.txt
 
 # OPLUS Charger
-odm/bin/hw/vendor.oplus.hardware.charger-V6-service;DISABLE_CHECKELF|5e8a1752b831729127feaad8e1926c311963e98f|7740ecd3c4336fdac6d382d5a7bfc08ffa67c3a8
-odm/bin/hw/wlschgd|4534dbca55f8b756b7e288bf1ed8cb311947b493
-odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc|178a0d37395cfb802722aafc116324c5bc0a7919
-odm/etc/permissions/vendor-oplus-hardware-charger.xml|b1e5caf493ed88bfb8ca02a9e38685433544b1b1
-odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml|08e707b23cf8949281b085c8154259eb9646777a
-odm/firmware/fastchg/bms_heating_config.txt|e5cafac9f56625f6c852f3c24cbc22f19e65f1e6
-odm/firmware/fastchg/charging_thermal_config_default.txt|f05642f06961f44288e350369f844405c4effdd4
-odm/firmware/fastchg/smart_chg_config_table.txt|5fbcf46cdab7947c3b0a299c914d2666177bc235
-odm/firmware/fastchg/charge_time_config.csv|e5bcc378513cb42bcb071eef327c87920553b0c4
-odm/lib64/libGaiaClient_vnd.so;DISABLE_CHECKELF|ee60de7da2de549003bdaa78656a1aa1474fd6b4|2e8431369cc77f1f4b5cff50f0f72844cfcab6e9
-odm/lib64/libosenseaidlhalclient.so:odm/lib64/libosenseaidlhalclient_charge.so;FIX_SONAME|daae077ebd421e4ca4f223c6c05b0104ce93d95c|01d1badb3b0927715375bb33c7a3016b1140ea49
-odm/lib64/vendor.oplus.hardware.charger-V6-ndk_platform.so|b78aa8fcd4cd206bd743109d50ae25aea4c2c9f2
-odm/lib64/vendor.oplus.hardware.charger@1.0.so|19db9130fde737e7401de9fd25dfcb748332cc3f
-odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so|b210036f6e30ea8d78a920c4ff7872c20c0c304a
+odm/bin/hw/vendor.oplus.hardware.charger-V6-service
+odm/bin/hw/wlschgd
+odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc
+odm/etc/permissions/vendor-oplus-hardware-charger.xml
+odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
+odm/firmware/fastchg/bms_heating_config.txt
+odm/firmware/fastchg/charging_thermal_config_default.txt
+odm/firmware/fastchg/smart_chg_config_table.txt
+odm/firmware/fastchg/charge_time_config.csv
+odm/lib64/libGaiaClient_vnd.so
+odm/lib64/libosenseaidlhalclient.so:odm/lib64/libosenseaidlhalclient_charge.so;FIX_SONAME
+odm/lib64/vendor.oplus.hardware.charger-V6-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.charger@1.0.so
+odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so
 
 # Peripheral manager
 vendor/bin/pm-proxy
