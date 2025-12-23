@@ -637,12 +637,14 @@ odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
 odm/firmware/fastchg/bms_heating_config.txt
 odm/firmware/fastchg/charging_thermal_config_default.txt
 odm/firmware/fastchg/smart_chg_config_table.txt
-odm/firmware/fastchg/charge_time_config.csv
 odm/lib64/libGaiaClient_vnd.so
 odm/lib64/libosenseaidlhalclient.so:odm/lib64/libosenseaidlhalclient_charge.so;FIX_SONAME
 odm/lib64/vendor.oplus.hardware.charger-V6-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.charger@1.0.so
 odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so
+
+# TTF (waffle)
+odm/firmware/fastchg/charge_time_config.csv|e5bcc378513cb42bcb071eef327c87920553b0c4
 
 # Peripheral manager
 vendor/bin/pm-proxy
