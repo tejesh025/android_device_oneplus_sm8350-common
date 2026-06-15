@@ -1,6 +1,6 @@
 <manifest version="2.0" type="device">
    
-    </hal>
+   
     <hal format="hidl">
         <name>vendor.oplus.hardware.appradio</name>
         <transport>hwbinder</transport>
