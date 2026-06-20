@@ -136,8 +136,7 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm-service.clearkey \
-    wvmkiller
+    android.hardware.drm-service.clearkey
 
 # Fastboot
 PRODUCT_PACKAGES += \
@@ -331,10 +330,6 @@ PRODUCT_COPY_FILES += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
-
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oplus
 
 # Update engine
 PRODUCT_PACKAGES += \
